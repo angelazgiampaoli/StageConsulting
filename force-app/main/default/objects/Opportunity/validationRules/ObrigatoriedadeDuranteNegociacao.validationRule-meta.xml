@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ObrigatoriedadeDuranteNegociacao</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  ISPICKVAL(StageName, &quot;Formalização&quot;),
+  OR(
+    ISBLANK(TempoEstimado__c),
+    ISBLANK(CustoEstimadoProjeto__c),
+    ISBLANK(ValorProposta__c)
+  )
+)</errorConditionFormula>
+    <errorMessage>Para passar para a próxima etapa é necessário os campos Custo Estimado do Projeto, Tempo Estimado do Projeto e  Valor da Proposta esteja preenchidos.</errorMessage>
+</ValidationRule>

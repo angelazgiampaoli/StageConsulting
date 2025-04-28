@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005bm00000DTiFuAAL",
+      "createdByName": "Angela Giampaoli",
+      "createdDate": "2025-04-26T22:24:27.000Z",
+      "fileName": "animationRules/Projetos.animationRule",
+      "fullName": "Projetos",
+      "id": "4Zubm000002FPszCAG",
+      "lastModifiedById": "005bm00000DTiFuAAL",
+      "lastModifiedByName": "Angela Giampaoli",
+      "lastModifiedDate": "2025-04-26T22:30:27.000Z",
+      "type": "AnimationRule"
+    }
+  ]
+}

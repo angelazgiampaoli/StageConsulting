@@ -1,0 +1,78 @@
+<apex:page standardController="Opportunity" renderAs="pdf">
+    <apex:facet name="stylesheet">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+            }
+            h1 {
+                text-align: center;
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+            .company-logo {
+                width: 10px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 40px;
+            }
+            .info {
+                margin-bottom: 10px;
+                font-size: 16px;
+            }
+            .info label {
+                font-weight: bold;
+            }
+            .footer {
+                margin-top: 30px;
+                text-align: center;
+                font-size: 14px;
+            }
+        </style>
+    </apex:facet>
+
+    <!-- Imagem do logo da empresa -->
+    <img src="{!URLFOR($Resource.CompanyLogo)}" alt="Logo da Empresa" class="company-logo" />
+
+    <!-- Detalhes da Opportunity -->
+    <h1>Detalhes do Projeto</h1>
+    <div class="info">
+        <label>Neste documento você encontrará todos os dados previamente acordados entre ambas as parte sobre o projeto</label>
+        <label>Ao final da página você deverá assinar em sinal do seu aceite</label>
+    </div>
+    
+    
+    <div class="info">
+        <label>Account Name:</label> {!Opportunity.Account.Name}
+    </div>
+    <div class="info">
+        <label>Data de Início:</label> {!Opportunity.DatadeInicio__c}
+    </div>
+    <div class="info">
+        <label>Custo Estimado:</label> {!Opportunity.CustoEstimadoProjeto__c}
+    </div>
+    <div class="info">
+        <label>Tempo Estimado:</label> {!Opportunity.TempoEstimado__c}
+    </div>
+    <div class="info">
+        <label>Valor Proposta:</label> {!Opportunity.ValorProposta__c}
+    </div>
+    
+    
+    <div>
+        
+        
+        
+    </div>
+    
+    
+    
+
+    <!-- Informações da Empresa -->
+    <div class="footer">
+        <p>Nome da Empresa: STAGE Consulting</p>        
+        <p> - Endereço da Empresa: R. Pais Leme, 215 - conj. 2307 - Pinheiros, São Paulo - SP, 05424-150 </p>
+        <p> - Telefone: (11) 98518-6982</p>
+    </div>
+</apex:page>

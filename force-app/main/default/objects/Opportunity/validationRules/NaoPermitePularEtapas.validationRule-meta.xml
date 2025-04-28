@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NaoPermitePularEtapas</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  ISCHANGED(StageName),
+  NOT(
+    OR(
+      AND(
+        ISPICKVAL(PRIORVALUE(StageName), &quot;Qualificação&quot;),
+        OR(
+          ISPICKVAL(StageName, &quot;Negociação&quot;),
+          ISPICKVAL(StageName, &quot;Closed Won&quot;),
+          ISPICKVAL(StageName, &quot;Closed Lost&quot;)
+        )
+      ),
+      AND(
+        ISPICKVAL(PRIORVALUE(StageName), &quot;Negociação&quot;),
+        OR(
+          ISPICKVAL(StageName, &quot;Formalização&quot;),
+          ISPICKVAL(StageName, &quot;Closed Won&quot;),
+          ISPICKVAL(StageName, &quot;Closed Lost&quot;)
+        )
+      ),
+      AND(
+        ISPICKVAL(PRIORVALUE(StageName), &quot;Formalização&quot;),
+        OR(
+          ISPICKVAL(StageName, &quot;Closed Won&quot;),
+          ISPICKVAL(StageName, &quot;Closed Lost&quot;)
+        )
+      )
+    )
+  )
+)</errorConditionFormula>
+    <errorMessage>Não é permitido pular etapas ou voltar!!</errorMessage>
+</ValidationRule>

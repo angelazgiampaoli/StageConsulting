@@ -1,0 +1,57 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005bm00000DTiFuAAL",
+      "createdByName": "Angela Giampaoli",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "objectTranslations/ProjetoDesenvolvedor__c-pt_BR.objectTranslation",
+      "fullName": "ProjetoDesenvolvedor__c-pt_BR",
+      "id": "",
+      "lastModifiedById": "005bm00000DTiFuAAL",
+      "lastModifiedByName": "Angela Giampaoli",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": "CustomObjectTranslation"
+    },
+    {
+      "createdById": "005bm00000DTiFuAAL",
+      "createdByName": "Angela Giampaoli",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "objectTranslations/Desenvolvedor__c-pt_BR.objectTranslation",
+      "fullName": "Desenvolvedor__c-pt_BR",
+      "id": "",
+      "lastModifiedById": "005bm00000DTiFuAAL",
+      "lastModifiedByName": "Angela Giampaoli",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": "CustomObjectTranslation"
+    },
+    {
+      "createdById": "005bm00000DTiFuAAL",
+      "createdByName": "Angela Giampaoli",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "objectTranslations/AlocacaoDesenvolvedor__c-pt_BR.objectTranslation",
+      "fullName": "AlocacaoDesenvolvedor__c-pt_BR",
+      "id": "",
+      "lastModifiedById": "005bm00000DTiFuAAL",
+      "lastModifiedByName": "Angela Giampaoli",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": "CustomObjectTranslation"
+    },
+    {
+      "createdById": "005bm00000DTiFuAAL",
+      "createdByName": "Angela Giampaoli",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "objectTranslations/Projeto__c-pt_BR.objectTranslation",
+      "fullName": "Projeto__c-pt_BR",
+      "id": "",
+      "lastModifiedById": "005bm00000DTiFuAAL",
+      "lastModifiedByName": "Angela Giampaoli",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": "CustomObjectTranslation"
+    }
+  ]
+}

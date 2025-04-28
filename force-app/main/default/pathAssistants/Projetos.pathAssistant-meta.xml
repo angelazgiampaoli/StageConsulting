@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>Projetos</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>DocumentosAssinados__c</fieldNames>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;img src=&quot;https://stageconsulting-dev-ed.develop.file.force.com/servlet/rtaImage?eid=1CFbm0000004mfa&amp;amp;feoid=Info&amp;amp;refid=0EMbm000000VrWH&quot;&gt;&lt;/img&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;﻿Necessário anexar o contrato assinado por ambas as partes.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Formalização</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>CustoEstimadoProjeto__c</fieldNames>
+        <fieldNames>TempoEstimado__c</fieldNames>
+        <fieldNames>ValorProposta__c</fieldNames>
+        <fieldNames>Documentos_da_Proposta__c</fieldNames>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;img src=&quot;https://stageconsulting-dev-ed.develop.file.force.com/servlet/rtaImage?eid=1CFbm0000004mfZ&amp;amp;feoid=Info&amp;amp;refid=0EMbm000000VrWH&quot;&gt;&lt;/img&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Necessário preencher os campos selecionados ao lado;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Necessário anexar o documento de acordo do cliente.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Negociação</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>DatadeInicio__c</fieldNames>
+        <fieldNames>CloseDate</fieldNames>
+        <fieldNames>Tecnologia_do_Projeto__c</fieldNames>
+        <fieldNames>Type</fieldNames>
+        <fieldNames>Email__c</fieldNames>
+        <info>&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://stageconsulting-dev-ed.develop.file.force.com/servlet/rtaImage?eid=1CFbm0000004mfb&amp;amp;feoid=Info&amp;amp;refid=0EMbm000000VrWH&quot;&gt;&lt;/img&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Necessário o preenchimentos dos campos selecionados ao lado.&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Qualificação</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Projetos</recordTypeName>
+</PathAssistant>

@@ -1,0 +1,31 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005bm00000DTiscAAD",
+      "createdByName": "Automated Process",
+      "createdDate": "2025-04-24T12:40:21.000Z",
+      "fileName": "notificationtypes/enablement_coaching_feedback_ready.notiftype",
+      "fullName": "enablement_coaching_feedback_ready",
+      "id": "0MLbm000000l6ZpGAI",
+      "lastModifiedById": "005bm00000DTiscAAD",
+      "lastModifiedByName": "Automated Process",
+      "lastModifiedDate": "2025-04-24T12:40:21.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomNotificationType"
+    },
+    {
+      "createdById": "005bm00000DTiFuAAL",
+      "createdByName": "Angela Giampaoli",
+      "createdDate": "2025-04-26T22:32:14.000Z",
+      "fileName": "notificationtypes/EventoProjeto.notiftype",
+      "fullName": "EventoProjeto",
+      "id": "0MLbm000000lFQDGA2",
+      "lastModifiedById": "005bm00000DTiFuAAL",
+      "lastModifiedByName": "Angela Giampaoli",
+      "lastModifiedDate": "2025-04-26T22:32:14.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomNotificationType"
+    }
+  ]
+}

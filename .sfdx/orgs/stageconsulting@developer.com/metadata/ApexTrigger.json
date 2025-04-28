@@ -1,0 +1,18 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005bm00000DTiFuAAL",
+      "createdByName": "Angela Giampaoli",
+      "createdDate": "2025-04-24T15:00:20.000Z",
+      "fileName": "triggers/TriggerBrasilAPI.trigger",
+      "fullName": "TriggerBrasilAPI",
+      "id": "01qbm000003EVBtAAO",
+      "lastModifiedById": "005bm00000DTiFuAAL",
+      "lastModifiedByName": "Angela Giampaoli",
+      "lastModifiedDate": "2025-04-24T15:00:20.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005bm00000DTiFuAAL",
+      "createdByName": "Angela Giampaoli",
+      "createdDate": "2025-04-26T02:21:33.000Z",
+      "fileName": "brandingSets/LEXTHEMINGStageConsulting1.brandingSet",
+      "fullName": "LEXTHEMINGStageConsulting1",
+      "id": "0Lwbm000000G47hCAC",
+      "lastModifiedById": "005bm00000DTiFuAAL",
+      "lastModifiedByName": "Angela Giampaoli",
+      "lastModifiedDate": "2025-04-26T13:12:30.000Z",
+      "manageableState": "unmanaged",
+      "type": "BrandingSet"
+    }
+  ]
+}
